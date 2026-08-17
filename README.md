@@ -4,6 +4,9 @@ You don't need to be a security expert or a programmer to build safer AI artifac
 You do need to understand what capabilities you are giving your agent.
 This repository is a hands-on classroom project that introduces Model Context Protocol (MCP), AI artifacts, indirect prompt injection, the "lethal trifecta", least privilege, capability separation, and human approval.
 > **Don't secure the prompt. Secure the capabilities.**
+
+<img width="547" height="365" alt="image" src="https://github.com/user-attachments/assets/e3cdff16-8e12-4802-84bf-c3a588f717e9" />
+
 ---
 What this project teaches
 By the end of the exercise, students should be able to:

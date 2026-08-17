@@ -1,2 +1,0 @@
-mcp[cli]>=2.0
-feedparser>=6.0

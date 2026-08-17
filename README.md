@@ -86,9 +86,9 @@ The MCP server is the interface.
 The tool is the capability.
 That distinction matters for security.
 The current MCP protocol defines three core primitives:
-Tools — model-controlled functions that can perform actions.
-Resources — application-controlled contextual data.
-Prompts — user-controlled templates.
+Tools  - model-controlled functions that can perform actions.
+Resources  - application-controlled contextual data.
+Prompts  - user-controlled templates.
 This project focuses mainly on tools, because tools are where an agent gains operational capabilities.
 ---
 2. Why MCP changes the security model
@@ -185,13 +185,13 @@ Do not scrape or redistribute Bloomberg content in violation of its terms.
 You can also use the included local fixture for a completely self-contained classroom demonstration.
 ---
 6. Step-by-step lab
-Step 1 — Install Python
+Step 1  - Install Python
 Python 3.10+ is required by the current official MCP Python SDK.
 Check:
 ```bash
 python --version
 ```
-Step 2 — Create a virtual environment
+Step 2  - Create a virtual environment
 ```bash
 python -m venv .venv
 ```
@@ -204,11 +204,11 @@ Windows PowerShell
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
-Step 3 — Install dependencies
+Step 3  - Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-Step 4 — Configure the RSS endpoint
+Step 4  - Configure the RSS endpoint
 Set an authorized Bloomberg RSS endpoint:
 ```bash
 export BLOOMBERG_RSS_URL="https://your-authorized-feed.example/rss"
@@ -221,7 +221,7 @@ Or use the included local fixture:
 ```bash
 export RSS_MODE=fixture
 ```
-Step 5 — Run the MCP
+Step 5  - Run the MCP
 ```bash
 python src/server.py
 ```
@@ -229,7 +229,7 @@ The server exposes:
 ```text
 get_bloomberg_news()
 ```
-Step 6 — Inspect the MCP
+Step 6  - Inspect the MCP
 If you have the MCP CLI installed:
 ```bash
 uv run mcp dev src/server.py
